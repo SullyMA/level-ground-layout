@@ -1,0 +1,39 @@
+body {
+ background-image: url("https://img.freepik.com/free-vector/farm-with-barn_1196-526.jpg?size=626&ext=jpg");
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.piggy {
+  position: absolute;
+  left: 350px;
+  top: 200px;
+  height: 200px;
+
+  /* start img1 at the bottom right */
+
+
+}
+
+@keyframes piggygohome
+{
+    from {
+
+      top: 200px;
+      left: 350px;
+
+    }
+    to {
+      top: 350px;
+      left: 560px;
+      height: 100px;
+    }
+}
+
+.piggyhome {
+  animation: piggygohome 1s;
+}
+
+/* animate img2 from bottom right to bottom left */
